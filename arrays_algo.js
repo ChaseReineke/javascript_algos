@@ -1,0 +1,12 @@
+var testArr = [6, 3, 5, 1, 2, 4]
+sum = 0;
+for (var i = 0; i < testArr.length; i++) {
+    console.log(testArr[i]);
+    sum = sum + testArr[i];
+    console.log(sum);
+}
+
+for (var i = 0; i < testArr.length; i++) {
+    testArr[i] = testArr[i] * i;
+    console.log(testArr[i]);
+}
